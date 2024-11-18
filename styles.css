@@ -30,6 +30,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     padding: 0 50px;
     height: 80px;
 }
@@ -42,7 +43,7 @@ nav .left a {
 
 nav .right a {
     color: var(--text-color);
-    margin-right: 10px;
+    margin-right: 0 10px;
     font-weight: 600;
     font-size: 16px;
 }
@@ -215,7 +216,7 @@ nav .right a span {
 /* section 4:contact */
 /* footer */
 footer {
-    background:var(--link-color);
+    background: var(--link-color);
     color: #fff;
     text-align: center;
     padding: 1rem 0;
@@ -237,7 +238,7 @@ footer {
 }
 
 .social-links a:hover {
-    color:var(--background-color);
+    color: var(--background-color);
 }
 
 /* responsive */
